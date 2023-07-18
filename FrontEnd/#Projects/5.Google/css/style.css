@@ -1,0 +1,267 @@
+/* #region Basis */
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: arial,sans-serif;
+    background-color: rgba(32,33,36,1);
+    color: #fff;
+}
+
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul
+{
+    list-style: none;
+}
+
+/* #endregion */
+
+/* #region Header */
+header
+{
+    position: relative;
+    width: 1340px;
+    padding: 6px;
+}
+
+.header-div
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-items
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-a-b
+{
+    padding: 0 25px;
+}
+
+.item-a-b a
+{
+    padding: 0 7px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.item-a-b a:hover
+{
+    text-decoration: underline;
+}
+
+.item-c 
+{
+    width: 16px;
+    height: 16px;
+}
+
+.item-c a img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.item-d 
+{
+    font-size: 13px;
+    margin-left: 25px;
+    background-color: #8ab4f8;
+    padding: 10px 26px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.item-d a
+{
+    border: 1px #8ab4f8 solid;
+    color: #202124;
+}
+
+.item-d:hover
+{
+    background-color: white;
+}
+
+/* #endregion */
+
+/* #region Logo */
+
+.logo-outer
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 152px;
+    align-items: flex-end;
+}
+
+/* #endregion */
+
+/* #region Search Box & Buttons */
+
+.center
+{
+    padding: 20px;
+}
+
+.center-elements
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.search-box
+{
+    width: 560px;
+    border: 1px #bdc1c6 solid;
+    border-radius: 40px;
+
+}
+
+.search-icon
+{
+    /* En son arama klavye ve mikrofon ikonlarını ekliyordun ve sonra alttaki butonları yerleştircektin. İkonları inputun içine mi yerleştirsem yoksa inputun dışındaki dive mi? */
+}
+
+.search-input
+{
+    width: 100%;
+    height: 45px;
+    padding: 1px 1px;
+    /* margin:0 15px; */
+    border-radius: 40px;
+    border: 0;
+    background-color: rgba(32,33,36,1);
+} 
+
+.search-box:hover
+{
+    background-color: #303134;
+    border: 0;
+
+}
+
+.search-box:focus
+{
+    background-color: #303134;
+    border: 0;
+}
+.search-input:hover
+{
+    background-color: #303134;
+    border: 0;
+}
+.search-input:focus
+{
+    background-color: #303134;
+    border: 0;
+}
+
+.center-btn
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.center-btn a
+{
+    margin: 11px 4px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    background-color: #303134;
+    font-size: 14px;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+footer
+{
+    position: absolute;
+    padding: 20px 0;
+    background: #171717;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a,p,hr
+{
+    font-size: 14px;
+    color: #999da2;
+}
+
+footer p
+{
+    padding:0 15px 15px 15px;
+}
+
+.footer-links
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.links-1 ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-1 ul li
+{
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.links-3 ul
+{
+    display: flex;
+}
+
+.links-3 ul li
+{
+    padding: 0 20px;
+}
+
+.links-1 a:hover,
+.links-2 a:hover,
+.links-3 a:hover
+{
+    text-decoration: underline;
+}
+
+/* #endregion */
+
+/* #region Media Queries */
+
+@media(max-width:700px)
+{
+
+}
+
+/* #endregion */

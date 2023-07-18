@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+
+    <style>
+        .para1
+        {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+
+        .para1::first-letter
+        {
+            font-size: 32px;
+            color: blue;
+        }
+
+        .para1::first-line
+        {
+            color: red;
+        }
+
+        .para1::after
+        {
+            content:url(https://cdn-icons-png.flaticon.com/512/87/87390.png);
+        }
+
+        .para1::before
+        {
+            content: "Before Paragraph";
+        }
+    </style>
+</head>
+<body>
+    <p class="para1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit incidunt illum doloremque, ad odio nesciunt cupiditate porro suscipit! Earum esse iste nobis obcaecati amet nulla veniam reiciendis. Voluptate dicta sit perferendis debitis pariatur, fugit voluptatem sequi error porro quas! Dolor similique optio asperiores dolorem ea sequi quod recusandae labore laboriosam tempore quis repudiandae cumque accusamus sunt veniam saepe numquam, totam, quasi iste. Doloremque tempore molestiae, illo neque inventore tempora voluptatum et a ratione, suscipit, dolorum in dignissimos ipsa ut temporibus eligendi culpa nisi ad molestias ullam quibusdam doloribus. Autem veniam, quaerat repellendus quasi voluptatem ratione vel blanditiis est quia? Officiis!
+    </p>
+</body>
+</html>

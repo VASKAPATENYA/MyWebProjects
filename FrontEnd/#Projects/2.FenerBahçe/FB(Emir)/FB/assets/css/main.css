@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300..900&family=Rubik&display=swap');
+@import 'bootstrap-grid.css';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #002d72;
+    --color-secondary: #ffed00;
+    --color-tertiary: #145ab4;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a, i {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+}
+
+.header{
+    background: linear-gradient(90deg, var(--color-primary), var(--color-tertiary));
+    color: white;
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 3rem;
+    padding-bottom: 0;
+}
+
+
+.header .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    column-gap: 3rem;
+}
+
+.header .top .social-media{
+    display: flex;
+    flex-direction: row;
+    column-gap: .5rem;
+}
+
+.header .top .social-media a{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.125rem;
+}
+
+.header .top .social-media a:hover{
+    color: #ffed00;
+}
+
+.header .top .login{
+    display: inline-block;
+    background-color: #ffed00;
+    color: var(--color-primary);
+    border-radius: 4px;
+    font-size: 13px;
+    padding: .75rem 1rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
+}
+
+.header .top .login a{
+    font-weight: 900;
+}
+
+.header .top .lang{
+    color: #fff;
+    font-size: 13px;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.header .top .lang a{
+    font-size: 16px;
+    color: #fff;
+    margin-right: 5px;
+
+}
+
+.header .bottom{
+    --header-bottom-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    height: var(--header-bottom-height);
+}
+
+.header .bottom .logo{
+    display: flex;
+    flex-basis: 15%;
+    align-self: center;
+    position: relative;
+    z-index: 2;
+    transition: ease all .3s;
+
+}
+
+.header .bottom .logo a img{
+    top: 20px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.header .bottom .navbar{
+    --navbar-item-height: var(--header-bottom-height);
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--navbar-item-height);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .bottom .navbar a{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: var(--navbar-item-height);
+    padding: 0 1.5rem;
+    color: white;
+    font-size: .75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header .bottom .navbar a::before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    width: 75%;
+    height: .25rem;
+    background-color: var(--color-secondary);
+    opacity: 0;
+    transform: translateX(-50%);
+    transition-property: opacity;
+    transition-duration: .3s;
+}
+
+.header .bottom .navbar a:hover::before {
+    opacity: 1;
+}
+
+.header .bottom .search{
+    display: flex;
+    flex-basis: 15%;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+}

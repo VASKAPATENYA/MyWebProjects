@@ -1,0 +1,101 @@
+body
+{
+    background-color: gray;
+    background-image: url(images/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1
+{
+    color:aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2
+{
+    color:aquamarine;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3
+{
+    color:aquamarine;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h4
+{
+    color:aquamarine;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5
+{
+    color:aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6
+{
+    color:aquamarine;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p
+{
+    /* border: 2px solid aquamarine; */
+    color: aliceblue;
+}
+
+a:link, a:visited
+{
+    color: aquamarine;
+    background-color:black;
+    padding: 15px 25px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+hr
+{
+    color: aquamarine;
+}
+
+table, th, td
+{
+    color: aquamarine;
+    border: 2px solid aliceblue;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+th, td
+{
+    background-color: black;
+}
+
+li
+{
+    color: aquamarine;
+}
+
+ul
+{
+    list-style: square;
+}
+
+ol
+{
+    list-style:lower-greek;
+}

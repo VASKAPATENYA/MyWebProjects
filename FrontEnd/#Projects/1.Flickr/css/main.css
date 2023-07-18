@@ -1,0 +1,240 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.bg-navbar
+{
+    background: rgba(0, 0, 0, 0.50);
+}
+
+#logo
+{
+    display: flex;
+}
+
+#main-div .main-pic
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 1366px;
+    height: 695px;
+}
+
+#nav-bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    order: 1;
+}
+
+#nav-bar .flicker-header
+{
+    text-decoration: none;
+    color:rgba(255,255,255);
+}
+
+#nav-bar .flicker-header h1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: size 80px;;
+}
+
+#nav-bar ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-bar ul li a
+{
+    padding: 0.75rem;
+    text-decoration: none;
+}
+
+#nav-bar .sign-up a
+{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 800px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 5px 20px 5px 20px;
+}
+
+#nav-bar input
+{
+    width: 754px;
+    height: 33px;
+    align-self: center;
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+}
+
+#main-div .find
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.75rem;
+    padding-top: 10%;
+}
+
+#main-div .find h1
+{
+    color: white;
+    font-size: 56px;
+}
+
+#main-div .join
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-div .join h3
+{
+    color: white;
+    font-size: 26px;
+}
+
+#main-div .main-a
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.75rem;
+}
+
+#main-div .main-a a
+{
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background:white;
+    color: black;
+    border-radius: 3px;
+}
+
+/* #main-div footer
+{
+    background: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#main-div .footer-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#main-div .li-class
+{
+    list-style-type: square;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-div footer ul li a
+{
+    padding: 1rem;
+    color: hsla(0,0%,100%,.6);
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+#main-div footer ul li select
+{
+    padding: 1rem;
+    background: black;
+    border: none;
+    color: hsla(0,0%,100%,.6);
+}
+
+#main-div footer ul li select option
+{
+    background: none;
+    border: none;
+    color: hsla(0,0%,100%,.6);
+} */
+
+#main-div .footer-div
+{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-self: flex-end;
+}
+
+#main-div .footer-div ul
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-div .footer-div ul a
+{
+    padding-left: 5px; ;
+    text-decoration: none;
+    color: hsla(0,0%,100%,.6);
+    font-size: 14px;
+}
+
+#main-div .footer-div ul .li-class a 
+{
+    font-size: 25px;
+}
+
+#main-div .footer-div ul select
+{
+    background: none;
+    border: none;
+    color: hsla(0,0%,100%,.6);
+}
+
+#main-div .footer-div ul select option
+{
+    background: white;
+    color: black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Text Input Fields</h2>
+    <form action="/action_page.php" target="_blank" method="get">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+<!------------------------------------------------------------------------------>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="Male">Female</label><br>
+        <input type="radio" id="gender" name="gender" value="Other">
+        <label for="Male">Other</label><br>
+<!------------------------------------------------------------------------------>
+        <label>Languages:</label><br>
+        <input type="checkbox" id="lng" name="lng" value="English">
+        <label for="lng">English</label><br>
+        <input type="checkbox" id="lng" name="lng" value="Spanish">
+        <label for="lng">Spanish</label><br>
+        <input type="checkbox" id="lng" name="lng" value="Turkish">
+        <label for="lng">Turkish</label><br><br>
+<!------------------------------------------------------------------------------>
+        <label>Choose a Car:</label>
+        <select>
+            <option value="Volvo">Volvo</option>
+            <option value="Volvo">BMW</option>
+            <option value="Volvo">Mercedes</option>
+        </select><br><br>
+<!------------------------------------------------------------------------------>
+        <button onclick="alert('HelloWorld!')">Click Me</button><br><br>
+<!------------------------------------------------------------------------------>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

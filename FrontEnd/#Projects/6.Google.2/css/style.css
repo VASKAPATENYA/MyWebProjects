@@ -1,0 +1,332 @@
+/* #region Basis */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #202124;
+}
+
+/* #endregion */
+
+/* #region Header & Navbar */
+
+header
+{
+    height: 60px;
+}
+
+.navbar
+{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.navbar ul
+{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar ul li
+{
+    margin:0 15px;
+}
+
+.navbar ul li a
+{
+    color: #fff;
+}
+
+.link:hover
+{
+    text-decoration: underline;
+}
+
+.circle-shadow
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-shadow img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.circle-shadow:hover
+{
+    background-color:#303134;
+}
+
+.menu-icon,
+.user-icon span
+{
+    font-size: 18px;
+    color: #fff;
+}
+
+.user-icon
+{
+    background-color: #ef6c00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* #endregion */
+
+/* #region Section */
+
+.content-section
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.logo-img
+{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.search-bar
+{
+    border:1px #303134 solid;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.search-bar:hover
+{
+    background: #303134;
+}
+
+.search-bar:hover > .search-input
+{
+    background-color: #303134;
+}
+.search-bar i
+{
+    font-size: 18px;
+    color: #9aa0a6;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.search-bar input
+{
+    flex-grow: 1;
+    height: 30px;
+    margin-right:15px ;
+    font-size: 16px;
+    background-color: #202124;
+    border: none;
+    color: #fff;
+}
+
+.search-bar:focus-within
+{
+    background-color: #303134;
+}
+
+.search-input:focus{
+    outline: none;
+    background-color: #303134;
+}
+
+.search-btns
+{
+    margin-top: 20px;
+}
+
+.search-btns button
+{
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: #303134;
+    color: #fff;
+    padding: 0 15px;
+}
+
+.search-btns button:hover
+{
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+footer
+{
+    height: 100px;
+    background: #171717;
+}
+
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.upper-footer
+{
+    height: 50%;
+    border-bottom: 1px solid #999da2;
+    margin-left: 15px;
+}
+
+.upper-footer p
+{
+    color: #999da2;
+    font-size: 14px;
+}
+
+.lower-footer
+{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-footer ul li a
+{
+    font-size: 14px;
+    color: #999da2;
+
+}
+
+.lower-footer ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.left-lower-footer
+{
+    display: flex;
+}
+
+.left-lower-footer li
+{
+    margin: 0 15px;
+}
+
+.right-lower-footer
+{
+    display: flex;
+}
+
+.right-lower-footer li
+{
+    margin-right: 15px;
+}
+
+.leaf
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leaf:hover
+{
+    text-decoration: underline;
+}
+
+.carbon-icon
+{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #999da2;
+}
+
+.carbon-icon img
+{
+    width: 14px;
+    height: 14px;
+}
+
+/* #endregion */
+
+/* #region Media Queries */
+
+@media only screen and (max-width:650px)
+{
+    .search-bar
+    {
+        width: 90%;
+    }
+
+    .upper-footer
+    {
+        height: 50px;
+    }
+
+    .lower-footer
+    {
+        height: 100px;
+        flex-direction: column;
+    }
+}
+
+/* #endregion */
+

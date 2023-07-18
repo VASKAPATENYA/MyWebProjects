@@ -1,0 +1,46 @@
+display: düzen türü   // none=görünmemesini sağlar.    flex= default olarak satır hizala demek. flex direction ile değiştirilebilir.
+                                                              yan yana dizilmesini sağlar.   block=alt alta dizilmesini sağlar.
+
+         inline olduğunda yan yana yazılır, sadece üzerine gelindiğinde küçük bir kısma tıklayarak diğer sayfaya gidebilirsiniz. 
+         Fakat inline block olduğunda ona belirlediğin alan kadar yeri seçebilirsin.
+
+         CSS'de "display:inline-block" özelliği, etiketler üzerinde genişlik ve yükseklik ayarlamaya izin verir, display:inline ile aralarındaki 
+en belirgin fark budur.
+
+Ayrıca, display: inline-block, üst ve alt kenar boşluklarına / dolgulara (margin/padding) kabul eder ve uygular, ancak display: inline 
+uygulamaz.
+
+Display: block; Bir elementin kutu şeklinde alan kaplamasını sağlayan kod parçasıdır. Kullanıldığı anda element yeni bir satırdan başlar.
+
+Elementlerin block şeklinde davranmasını sağlayabiliriz. Örneğin span etiketinin varsayılan display değeri inline'dır ve ikitane span 
+etiketi oluşturduğumuzda bunlar aynı satırda yan yana görünür. Eğer span etiketininin display değeri block olarak değiştirilirse span 
+etiketleri sonrasında boşluk bırakıp alt satıra geçecektir.
+
+block kullanıldığında uzunluk kısa ya da uzun da olsa elementin kapsayıcısı sayfa genişliğince sayfayı kaplar.
+inline de ise uzunluğu kadar yer kaplar.
+
+
+flexbox için:
+flex-direction = row ise; (default olarak böyledir)
+justify-content = x ekseni (sol-orta-sağ)
+align-items= y ekseni (üst-orta-alt)
+
+flex-direction = column ise;
+justify-content = y ekseni (üst-orta-alt)
+align-items= x ekseni (sol-orta-sağ)
+
+
+position: static
+düzenli
+
+position: absolute
+düzensiz, zaptedilebilir
+
+position: relative
+düzenli ve kurallı, düzensizleri zapteden
+
+position: fixed
+düzensiz, kuralsız, zaptedilemez
+
+position: sticky
+yarı düzenli, kurallı

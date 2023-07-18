@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+
+    <style>
+        body
+        {
+            background-color: white;
+        }
+        
+        a
+        {
+            font-size: 32px;
+        }
+
+        a:link
+        {
+            color: green;
+        }
+
+        a:hover
+        {
+            color: red;
+        }
+
+        a:visited
+        {
+            color: yellow;
+        }
+
+        a:active
+        {
+            color: orange;
+        }
+
+        button
+        {
+            background-color: aquamarine;
+            font-size: 32px;
+        }
+
+        button:hover
+        {
+            background-color: brown;
+            cursor:grab;
+        }
+
+        button:active
+        {
+            background-color: blue;
+        }
+
+        input
+        {
+            font-size: 1.5em;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+
+        input:focus
+        {
+            border: 5px red solid;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">This is a Link</a><br>
+    <button type="reset">This is a Button</button><br><br>
+    <input type="text" placeholder="Name"/>
+</body>
+</html>

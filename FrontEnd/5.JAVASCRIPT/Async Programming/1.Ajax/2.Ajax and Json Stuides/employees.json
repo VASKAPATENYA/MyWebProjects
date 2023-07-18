@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Ali Bakır",
+        "department": "IT",
+        "salary": 5000
+    },
+
+    {
+        "name":"Hakkı Bakır",
+        "department": "IT",
+        "salary": 5000
+    },
+
+    {
+        "name":"Birsen Bakır",
+        "department": "IT",
+        "salary": 5000
+    }
+]
